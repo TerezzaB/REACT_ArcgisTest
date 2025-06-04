@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import url("https://js.arcgis.com/4.32/@arcgis/core/assets/esri/themes/dark/main.css");
+@import url("https://js.arcgis.com/calcite-components/3.0.3/calcite.css");
+@import url("https://js.arcgis.com/map-components/4.32/arcgis-map-components.css");
 
 
 :root {
@@ -8,9 +11,14 @@
 
   color-scheme: light;
   color: #333;
-  
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+arcgis-map {
+  display: block;
+  height: 100%;
 }

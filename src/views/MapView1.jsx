@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import "@arcgis/map-components/dist/components/arcgis-map";
 
-const MapView1 = () => (
-  <div className="text-xl font-semibold text-purple-700">
-    Toto je MapView1.
-  </div>
-)
+export default function MapView1() {
+  return (
+    <div className="w-full h-[600px]">
+      <arcgis-map
+        item-id="d5dda743788a4b0688fe48f43ae7beb9"
+        style={{ height: "100%", width: "100%" }}
+      ></arcgis-map>
+    </div>
+  );
+}
 
-export default MapView1
