@@ -90,9 +90,18 @@ export default function MapView3() {
         style={{
           position: "absolute",
           top: 10,
-          left: 10,
+          left: 60,
           zIndex: 10,
-          padding: "8px 16px"
+          padding: "7px 14px",
+          background: "magenta",
+          color: "#fff",
+          fontWeight: "bold",
+          fontSize: "1rem",
+          border: "none",
+          borderRadius: "8px",
+          boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
+          cursor: "pointer",
+          letterSpacing: "1px"
         }}
         onClick={() => window.resetPolygon && window.resetPolygon()}
       >
