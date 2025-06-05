@@ -100,6 +100,6 @@ export default function MapView2() {
   }, []);
 
   return (
-    <div ref={mapDiv} style={{ width: "56vw", height: "100vh" }}></div>
+    <div ref={mapDiv} style={{ width: "50vw", height: "100vh" }}></div>
   )
 }
